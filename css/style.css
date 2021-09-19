@@ -100,7 +100,7 @@
   }
 }
 
-.top-section .banner-section .content p, .feature-section .row .feature p, .course-section .card .card-body p, .course-section .card .card-body ul li span, .testimonial-section .row .content p, footer .content p, footer .nav .nav-item span, footer .nav .nav-item a, footer .txt p, footer .txt p a {
+.top-section .banner-section .content p, .feature-section .row .feature p, .course-section .card .card-body p, .course-section .card .card-body ul li span, .testimonial-section .row .content p, footer .content p, footer .nav .nav-item span, footer .nav .nav-item a, footer .txt p, footer .txt a {
   margin: 0;
   font-size: 16px;
   font-weight: 300;
@@ -109,7 +109,7 @@
 }
 
 @media (max-width: 991px) {
-  .top-section .banner-section .content p, .feature-section .row .feature p, .course-section .card .card-body p, .course-section .card .card-body ul li span, .testimonial-section .row .content p, footer .content p, footer .nav .nav-item span, footer .nav .nav-item a, footer .txt p, footer .txt p a {
+  .top-section .banner-section .content p, .feature-section .row .feature p, .course-section .card .card-body p, .course-section .card .card-body ul li span, .testimonial-section .row .content p, footer .content p, footer .nav .nav-item span, footer .nav .nav-item a, footer .txt p, footer .txt a {
     font-size: 14px;
   }
 }
@@ -368,7 +368,7 @@ body {
 
 @media (max-width: 575px) {
   .course-section .card {
-    margin: 10px 30px;
+    margin: 15px 30px;
   }
 }
 
@@ -560,12 +560,12 @@ footer .txt p {
   color: #fff !important;
 }
 
-footer .txt p a {
+footer .txt a {
   text-decoration: none;
   color: #fff !important;
 }
 
-footer .txt p a:hover {
+footer .txt a:hover {
   opacity: 0.6;
 }
 /*# sourceMappingURL=style.css.map */

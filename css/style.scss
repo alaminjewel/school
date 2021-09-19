@@ -336,7 +336,7 @@ body{
         }
 
         @media(max-width: 575px){
-            margin: 10px 30px;
+            margin: 15px 30px;
         }
         
         @media(max-width: 321px){
@@ -505,15 +505,15 @@ footer{
         p{
             @extend%p;
             color:#fff !important;
+        }
 
-            a{
-                text-decoration: none;
-                @extend%p;
-                color:#fff !important;
+        a{
+            text-decoration: none;
+            @extend%p;
+            color:#fff !important;
 
-                &:hover{
-                    opacity:0.6;
-                }
+            &:hover{
+                opacity:0.6;
             }
         }
     }
