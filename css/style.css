@@ -236,9 +236,9 @@ body {
   }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 575px) {
   .top-section .banner-section .content h1 {
-    padding: 10px 20px;
+    padding: 10px 0;
   }
 }
 
@@ -318,13 +318,7 @@ body {
 @media (max-width: 575px) {
   .feature-section .row .feature {
     padding: 25px;
-    margin: 0 140px;
-  }
-}
-
-@media (max-width: 321px) {
-  .feature-section .row .feature {
-    margin: 0 50px;
+    margin: 0 20px;
   }
 }
 
@@ -374,7 +368,7 @@ body {
 
 @media (max-width: 575px) {
   .course-section .card {
-    margin: 10px 80px;
+    margin: 10px 30px;
   }
 }
 
@@ -535,13 +529,6 @@ footer .content p {
 }
 
 @media (max-width: 575px) {
-  footer .nav {
-    padding: 0 10px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 321px) {
   footer .nav {
     display: none;
   }

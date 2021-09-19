@@ -201,10 +201,7 @@ body{
             @media(max-width: 767px){
                 text-align: center;
             }
-            
-            @media(max-width: 321px){
-            }
-
+        
             h6{
                 @extend%h6;
             }
@@ -215,8 +212,12 @@ body{
                 @media(max-width: 767px){
                     padding: 10px 85px;
                 }
+                
+                @media(max-width: 575px){
+                    padding: 10px 0;
+                }
+
                 @media(max-width: 321px){
-                    padding: 10px 20px;
 
                 }
                 span{
@@ -283,11 +284,10 @@ body{
             }
             @media(max-width: 575px){
                 padding: 25px;
-                margin: 0 140px;
+                margin: 0 20px;
             }
             
             @media(max-width: 321px){
-                margin: 0 50px;
             }
     
             &:hover{
@@ -336,7 +336,7 @@ body{
         }
 
         @media(max-width: 575px){
-            margin: 10px 80px;
+            margin: 10px 30px;
         }
         
         @media(max-width: 321px){
@@ -480,10 +480,6 @@ footer{
     }
     .nav{
         @media(max-width: 575px){
-            padding: 0 10px;
-            text-align: center;
-        }
-        @media(max-width: 321px){
             display: none;
         }
         .nav-item{
